@@ -34,7 +34,7 @@ class Player(CircleShape):
             self.move(-dt)
         
     
-     def rotate(dt):
+    def rotate(dt):
         self.rotation += PLAYER_TURN_SPEED * dt
     
     def move(dt):
